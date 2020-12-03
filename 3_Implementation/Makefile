@@ -10,8 +10,8 @@ src/cquizgame.c
 
 # All test source files
 TEST_SRC = src/cquizgame.c\
-test/test_cquizgame.c\
-unity/unity.c\
+test/cquizgame.c\
+
 
 TEST_OUTPUT = $(BUILD)/Test_$(cquizgame).out
 
