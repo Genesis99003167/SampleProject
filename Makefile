@@ -6,7 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/cquizgame.c
+3_Implementation/src/cquizgame.c
 
 # All test source files
 TEST_SRC = 3_Implementation/src/cquizgame.c\
@@ -16,8 +16,8 @@ TEST_SRC = 3_Implementation/src/cquizgame.c\
 TEST_OUTPUT = $(BUILD)/Test_$(cquizgame).out
 
 # All include folders with header files
-INC	= -Iinc\
--Iunity\
+INC	= -I3_Implementation\inc\
+-I3_Implementation\unity\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
