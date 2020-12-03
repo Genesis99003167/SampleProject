@@ -5,8 +5,7 @@ PROJECT_NAME = cquizgame
 BUILD = build
 
 # All source code files
-SRC = main.c\
-3_Implementation/src/cquizgame.c
+SRC = 3_Implementation/cquizgame.c
 
 # All test source files
 TEST_SRC = 3_Implementation/test/cquizgame.c\
