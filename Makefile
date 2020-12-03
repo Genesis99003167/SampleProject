@@ -15,7 +15,7 @@ TEST_SRC = 3_Implementation/test/cquizgame.c\
 TEST_OUTPUT = $(BUILD)/Test_$(cquizgame).out
 
 # All include folders with header files
-INC = -I/3_Implementation/inc\
+INC = -I3_Implementation\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
