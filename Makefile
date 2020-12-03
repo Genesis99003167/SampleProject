@@ -9,8 +9,8 @@ SRC = main.c\
 src/cquizgame.c
 
 # All test source files
-TEST_SRC = src/cquizgame.c\
-test/cquizgame.c\
+TEST_SRC = 3_Implementation/src/cquizgame.c\
+3_Implementation/test/cquizgame.c\
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(cquizgame).out
