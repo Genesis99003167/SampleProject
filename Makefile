@@ -9,15 +9,13 @@ SRC = main.c\
 3_Implementation/src/cquizgame.c
 
 # All test source files
-TEST_SRC = 3_Implementation/src/cquizgame.c\
-3_Implementation/test/cquizgame.c\
+TEST_SRC = 3_Implementation/test/cquizgame.c\
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(cquizgame).out
 
 # All include folders with header files
-INC	= -I3_Implementation\inc\
--I3_Implementation\unity\
+INC = -I3_Implementation\inc\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
